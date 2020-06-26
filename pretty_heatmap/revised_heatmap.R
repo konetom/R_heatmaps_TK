@@ -1,6 +1,6 @@
 source("C:\\Users\\tom4k\\Desktop\\libraries.R")
 
-filen = "expr1-2"
+filen = "revised_data"
 sheetIndex = 1
 
 df_mne <- read.xlsx(paste(filen,".xlsx", sep = ""), sheetIndex = sheetIndex, header = TRUE, rowIndex = 2:30, colIndex = 1:11, row.names = "Group1")
