@@ -1,4 +1,8 @@
-source("C:\\Users\\tom4k\\Desktop\\libraries.R")
+library(pheatmap)
+library(readxl)
+library(xlsx)
+library(scales)
+library(forestmangr)
 
 filen = "revised_data"
 sheetIndex = 1
