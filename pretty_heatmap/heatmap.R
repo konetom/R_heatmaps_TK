@@ -38,7 +38,7 @@ rownames(rannot) <- rownames(df)
 
 # building "pretty heatmap - pheatmap"
 height = 15
-pdf(paste0("Output/heatmap_(height_",height,").pdf"), height = height, width = 10)
+pdf(paste0("heatmap_(height_",height,").pdf"), height = height, width = 10)
 pheatmap(as.matrix(df),
          cluster_cols = F,
          # cluster_rows = F,
