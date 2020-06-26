@@ -19,7 +19,7 @@ italrow <- lapply(rownames(df_mnesem),function(x) bquote(italic(.(x))))
 italcol <- lapply(colnames(df_mnesem),function(x) bquote(italic(.(x))))
 
 
-pdf(paste0(filen,"_mne0-100.pdf", sep = ""), width = 10)
+pdf(paste0("revised_heatmap_expr1-2_mne0-100.pdf", sep = ""), width = 10)
 pheatmap(as.matrix(norm_df_mne),
          cutree_cols = 4,
          cluster_rows = F,
