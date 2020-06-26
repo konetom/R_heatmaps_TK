@@ -59,3 +59,4 @@ pheatmap(as.matrix(df),
          annotation_row = rannot,
          col = c(colorRampPalette(c("green", "cyan", "purple"))(2000)))
 dev.off() # save as PDF
+
